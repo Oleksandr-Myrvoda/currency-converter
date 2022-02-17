@@ -1,0 +1,17 @@
+.contaiter {
+  background-color: rgb(3, 128, 10);
+  height: 100vh;
+}
+h1 {
+  padding: 150px 0 50px 0;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

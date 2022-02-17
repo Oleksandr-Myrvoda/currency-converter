@@ -1,0 +1,32 @@
+.converter {
+  margin: 0 auto 20px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 100px 80px;
+  border-radius: 15px;
+}
+input,
+select {
+  color: #000;
+  background: none;
+  border: none;
+}
+input {
+  padding-left: 15px;
+}
+select {
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .converter {
+    max-width: 716px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .converter {
+    max-width: 1228px;
+  }
+}
