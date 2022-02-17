@@ -58,7 +58,7 @@ function App() {
     if (Object.keys(rates).length > 0) {
       handleAmount1Change(1);
     }
-  }, [handleAmount1Change, rates]);
+  }, [rates]);
 
   const ratesKeysArray = Object.keys(rates);
 
