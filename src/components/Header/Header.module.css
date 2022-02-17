@@ -7,7 +7,7 @@
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   min-height: 100px;
-  background-color: rgb(4, 66, 15);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .ratesList {

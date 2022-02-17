@@ -1,5 +1,7 @@
 .contaiter {
-  background-color: rgb(3, 128, 10);
+  background-image: url("./images/stock-photo-creative-blurry-outdoor-asphalt-background-with-mist-780934750.jpg");
+  background-position: center;
+  background-size: cover;
   height: 100vh;
 }
 h1 {

@@ -2,42 +2,28 @@ import PropTypes from "prop-types";
 
 import styles from "./Converter.module.css";
 
-// const Converter = (props) => {
-//   console.log("props :>> ", props.currencies);
-//   return (
-//     <div className={styles.converter}>
-//       <input
-//         type="text"
-//         value={props.amount}
-//         onChange={(e) => props.onAmountChange(e.target.value)}
-//       />
-//       <select
-//         value={props.currency}
-//         onChange={(e) => props.onCurrencyChange(e.target.value)}
-//       >
-//         {props.currencies.map((currency) => (
-//           <option key={currency.ccy} value={currency.ccy}>
-//             {currency.ccy}
-//           </option>
-//         ))}
-//       </select>
-//     </div>
-//   );
-// };
 const Converter = (props) => {
-  console.log("props :>> ", props);
+  const arr = props.currencies.filter(
+    (currency) =>
+      currency !== "EUR" &&
+      currency !== "USD" &&
+      currency !== "UAH" &&
+      currency !== "RUB"
+  );
+  const topCurrencies = ["EUR", "RUB", "UAH", "USD", ...arr];
+
   return (
     <div className={styles.converter}>
       <input
         type="text"
         value={props.amount}
-        onChange={(e) => props.onAmountChange(e.target.value)}
+        onChange={(e) => props.onAmountChange(+e.target.value)}
       />
       <select
         value={props.currency}
         onChange={(e) => props.onCurrencyChange(e.target.value)}
       >
-        {props.currencies.map((currency) => (
+        {topCurrencies.map((currency) => (
           <option key={currency} value={currency}>
             {currency}
           </option>
