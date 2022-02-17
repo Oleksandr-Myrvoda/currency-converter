@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/currency-converter/static/css/main.f857f165.css",
-    "main.js": "/currency-converter/static/js/main.5c44921c.js",
+    "main.js": "/currency-converter/static/js/main.c63480ed.js",
     "static/media/stock-photo-creative-blurry-outdoor-asphalt-background-with-mist-780934750.jpg": "/currency-converter/static/media/stock-photo-creative-blurry-outdoor-asphalt-background-with-mist-780934750.e68e183c12c88674e800.jpg",
     "index.html": "/currency-converter/index.html",
     "main.f857f165.css.map": "/currency-converter/static/css/main.f857f165.css.map",
-    "main.5c44921c.js.map": "/currency-converter/static/js/main.5c44921c.js.map"
+    "main.c63480ed.js.map": "/currency-converter/static/js/main.c63480ed.js.map"
   },
   "entrypoints": [
     "static/css/main.f857f165.css",
-    "static/js/main.5c44921c.js"
+    "static/js/main.c63480ed.js"
   ]
 }
